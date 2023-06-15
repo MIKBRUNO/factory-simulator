@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FactoryGUI">
+  <grid id="27dc6" binding="MainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="562"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="14064" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="a2910" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none" title="Dealers"/>
+            <children>
+              <grid id="68f43" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="a9458" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Cars in storage: "/>
+                    </properties>
+                  </component>
+                  <component id="641a9" class="javax.swing.JLabel" binding="CARS_IN_STORAGE">
+                    <constraints/>
+                    <properties>
+                      <font size="20" style="1"/>
+                      <text value="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="3c349" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints border-constraint="South"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="c0822" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Saled cars: "/>
+                    </properties>
+                  </component>
+                  <component id="178c4" class="javax.swing.JLabel" binding="CARS_SALED">
+                    <constraints/>
+                    <properties>
+                      <font size="20" style="1"/>
+                      <text value="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="b544b" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none" title="Workers"/>
+            <children>
+              <grid id="a4b33" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="f201" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Cars to make: "/>
+                    </properties>
+                  </component>
+                  <component id="82d60" class="javax.swing.JLabel" binding="CARS_TO_MAKE">
+                    <constraints/>
+                    <properties>
+                      <font size="20" style="1"/>
+                      <text value="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="baf74" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints border-constraint="South"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="cf425" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Ready cars: "/>
+                    </properties>
+                  </component>
+                  <component id="50770" class="javax.swing.JLabel" binding="READY_CARS">
+                    <constraints/>
+                    <properties>
+                      <font size="20" style="1"/>
+                      <text value="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="14c3b" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none" title="Producers"/>
+            <children>
+              <grid id="b18b9" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="8644d" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="c3108" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="All-time produced Engines:"/>
+                        </properties>
+                      </component>
+                      <component id="83147" class="javax.swing.JLabel" binding="ENGINES_ALLTIME">
+                        <constraints/>
+                        <properties>
+                          <font size="20" style="1"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="c2aa5" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                    <constraints border-constraint="South"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="3fbb7" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="Engines in storage: "/>
+                        </properties>
+                      </component>
+                      <component id="dd89" class="javax.swing.JLabel" binding="ENGINES_IN_STORAGE">
+                        <constraints/>
+                        <properties>
+                          <font size="20" style="1"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="d34f3" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="South"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="ca9d3" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="35023" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="All-time produced Bodies:"/>
+                        </properties>
+                      </component>
+                      <component id="fb57c" class="javax.swing.JLabel" binding="BODIES_ALL_TIME">
+                        <constraints/>
+                        <properties>
+                          <font size="20" style="1"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="ab077" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                    <constraints border-constraint="South"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="9aa2a" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="Bodies in storage: "/>
+                        </properties>
+                      </component>
+                      <component id="d3e22" class="javax.swing.JLabel" binding="BODIES_IN_STORAGE">
+                        <constraints/>
+                        <properties>
+                          <font size="20" style="1"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="a8934" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="83e2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="98760" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="All-time produced Accessories: "/>
+                        </properties>
+                      </component>
+                      <component id="ebd23" class="javax.swing.JLabel" binding="ACCESSORIES_ALL_TIME">
+                        <constraints/>
+                        <properties>
+                          <font size="20" style="1"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="c0522" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                    <constraints border-constraint="South"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="f087e" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="Accessories in storage: "/>
+                        </properties>
+                      </component>
+                      <component id="80e9f" class="javax.swing.JLabel" binding="ACCESSORIES_IN_STORAGE">
+                        <constraints/>
+                        <properties>
+                          <font size="20" style="1"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="e54b5" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none" title="Speed"/>
+        <children>
+          <grid id="d990" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="line"/>
+            <children>
+              <component id="c2a29" class="javax.swing.JSlider" binding="DEALERS">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <value value="100"/>
+                </properties>
+              </component>
+              <component id="b5b38" class="javax.swing.JLabel">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <text value="Dealers:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="41e30" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="line"/>
+            <children>
+              <grid id="3b0cb" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="cca46" class="javax.swing.JSlider" binding="ACCESSORIES">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <value value="100"/>
+                    </properties>
+                  </component>
+                  <component id="d56c6" class="javax.swing.JLabel">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <text value="Accessory suppliers: "/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="dc3f2" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="South"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="69705" class="javax.swing.JSlider" binding="ENGINES">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <value value="100"/>
+                    </properties>
+                  </component>
+                  <component id="e6660" class="javax.swing.JLabel">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <text value="Engine suppliers: "/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="64ca1" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="69fcf" class="javax.swing.JSlider" binding="BODIES">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <value value="100"/>
+                    </properties>
+                  </component>
+                  <component id="4772d" class="javax.swing.JLabel">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <text value="Body suppliers: "/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
