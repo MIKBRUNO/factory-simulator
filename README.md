@@ -1,12 +1,12 @@
 # factory-simulator
 NSU OOP Java lab
 
-javaw Main <config-file> <logfile>
+`javaw Main <config-file> <logfile>`
 
 or
   
-javaw Main <config-file>
+`javaw Main <config-file>`
 
 or
   
-javaw Main
+`javaw Main`
