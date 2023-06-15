@@ -10,3 +10,4 @@ or
 or
   
 `javaw Main`
+(would get config file from Main resourses)
